@@ -1,3 +1,4 @@
+// hotels
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HotelCard from './HotelCard';
@@ -9,7 +10,7 @@ function Hotels({ trip }) {
         Hotel Recommendation
       </h2>
       {trip?.tripData?.hotel_options && Array.isArray(trip.tripData.hotel_options) ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 mt-6">
           {trip.tripData.hotel_options.map((hotel, index) => (
             <HotelCard key={index} hotel={hotel} />
           ))}
