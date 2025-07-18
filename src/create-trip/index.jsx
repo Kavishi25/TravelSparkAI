@@ -138,7 +138,7 @@ const SaveAiTrip = async (tripData) => {
 
   return (
     <div className="sm:px-10 md:px-32 lg:px-56 xl:px-10 px-5 mt-10">
-      <h2 className="font-bold text-3xl">Tell Us About Your Trip ⛺🏝️</h2>
+      <h2 className="font-bold text-3xl mt-20">Tell Us About Your Trip ⛺🏝️</h2>
       <p className="mt-3 text-gray-500 text-xl">
         Just a few details and we’ll start shaping your perfect travel
         experience. The more you share, the better we plan!
